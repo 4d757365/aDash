@@ -1,4 +1,9 @@
 .home {
-    background-color: lightblue;
+    
+    display: flex;
+
+    .homeContainer {
+        flex: 6;
+    }
     
 }
