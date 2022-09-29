@@ -5,11 +5,8 @@ import Login from './pages/login/Login'
 import New from './pages/new/New'
 
 import {
-  createBrowserRouter,
-  RouterProvider,
   Routes,
   Route,
-  Link,
   BrowserRouter,
 } from "react-router-dom";
 
