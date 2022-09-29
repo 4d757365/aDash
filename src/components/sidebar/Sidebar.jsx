@@ -16,7 +16,7 @@ const Sidebar = () => {
     return (
         <div className='sidebar'>
             <div className="top"><span className="logo">aDash</span></div>
-            <hr />
+            <div className="line"></div>
             <div className="center">
                 <ul>
                     <p className="title">MAIN</p>
