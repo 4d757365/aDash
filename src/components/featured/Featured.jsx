@@ -27,21 +27,21 @@ const Featured = () => {
                         <div className="itemTitle">This Week</div>
                         <div className="itemResult pos">
                             <KeyboardArrowUpOutlinedIcon fontSize='small'/>
-                            <div className="resultAmount">$26.2k</div>
+                            <div className="resultAmount">$16.2k</div>
                         </div>
                     </div>
                     <div className="item">
                         <div className="itemTitle">Last Week</div>
                         <div className="itemResult neg">
                             <KeyboardArrowDownOutlinedIcon fontSize='small'/>
-                            <div className="resultAmount">$11.9k</div>
+                            <div className="resultAmount">$9.9k</div>
                         </div>
                     </div>
                     <div className="item">
                         <div className="itemTitle">Last Month</div>
                         <div className="itemResult pos">
                             <KeyboardArrowUpOutlinedIcon fontSize='small'/>
-                            <div className="resultAmount">$143.7k</div>
+                            <div className="resultAmount">$43.7k</div>
                         </div>
                     </div>
                 </div>
