@@ -1,0 +1,53 @@
+.datatable {
+    height: 600px;
+    padding: 20px;
+
+    .avatar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active {
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+        
+        &.pending {
+            color: goldenrod;
+            background-color: rgba(189, 189, 3, 0.103);
+        }
+
+        &.passive {
+            color: crimson;
+            background-color: rgba(255, 0, 0, 0.05);
+        }
+    }
+
+    .action {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .view {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: blue;
+            border: 1px dotted rgba(0, 0, 139, 0.527);
+            cursor: pointer;
+
+        }
+
+        .delete {
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: crimson;
+            border: 1px dotted rgba(220, 20, 60, 0.527);
+            cursor: pointer;
+        }
+    }
+}
