@@ -1,6 +1,7 @@
 import './sidebar.scss'
 import GridViewIcon from '@mui/icons-material/GridView';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import StoreOutlinedIcon from '@mui/icons-material/StoreOutlined';
 import CreditCardOutlinedIcon from '@mui/icons-material/CreditCardOutlined';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
@@ -12,8 +13,12 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { DarkModeContext } from '../../dark/DarkModeContext';
 
 const Sidebar = () => {
+    const {dispatch} = useContext(DarkModeContext);
+
     return (
         <div className='sidebar'>
             <div className="top">
@@ -83,9 +88,9 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
-            <div className="bottom">
-                <div className="color"></div>
-                <div className="color"></div>
+            <div className="bottom" onClick={() => dispatch({type: "TOGGLE"})}>
+                <DarkModeOutlinedIcon className='icon'/>
+               <span>Theme</span>
             </div>
         </div>
     )

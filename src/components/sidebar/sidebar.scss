@@ -3,6 +3,7 @@
     border-right: 0.5px solid rgb(240, 234, 234);
     min-height: 100vh;
     background-color: white;
+
     .top {
         height: 50px;
         display: flex;
@@ -18,7 +19,7 @@
 
     .line {
         height: 0.5px;
-        background-color:rgb(240, 234, 234);
+        background-color: rgb(240, 234, 234);
     }
 
     .center {
@@ -49,7 +50,7 @@
 
                 .icon {
                     font-size: 18px;
-                    color: #0284c7b3;
+                    color: #0284c5b3;
                 }
 
                 span {
@@ -66,21 +67,19 @@
         display: flex;
         align-items: center;
         margin: 10px;
+        cursor: pointer;
 
-        .color {
-            width: 20px;
-            height: 20px;
-            border-radius: 5px;
-            border: 1px solid #0284c7b3;
-            cursor: pointer;
-            margin: 5px;
-
-            &:nth-child(1) {
-                background-color: whitesmoke;
-            }
-            &:nth-child(1) {
-                background-color: rgb(37, 37, 37);
-            }
+        .icon {
+            font-size: 18px;
+            color: #0284c5b3;
         }
+
+        span {
+            font-size: 13px;
+            font-weight: 600;
+            color: #888;
+            margin-left: 10px;
+        }
+
     }
 }
