@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aDash/static/css/main.84ac9c68.css",
+    "main.js": "/aDash/static/js/main.b22b23d6.js",
+    "index.html": "/aDash/index.html",
+    "main.84ac9c68.css.map": "/aDash/static/css/main.84ac9c68.css.map",
+    "main.b22b23d6.js.map": "/aDash/static/js/main.b22b23d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84ac9c68.css",
+    "static/js/main.b22b23d6.js"
+  ]
+}
