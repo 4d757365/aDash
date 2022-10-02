@@ -1,0 +1,77 @@
+export const userInputs = [
+    {
+      id: 1,
+      label: "Username",
+      type: "text",
+      placeholder: "johnappleseed",
+    },
+    {
+      id: 2,
+      label: "Name",
+      type: "text",
+      placeholder: "John Appleseed",
+    },
+    {
+      id: 3,
+      label: "Email",
+      type: "mail",
+      placeholder: "johnappleseed@gmail.com",
+    },
+    {
+      id: 4,
+      label: "Phone",
+      type: "text",
+      placeholder: "+1 (234) 567-8901",
+    },
+    {
+      id: 5,
+      label: "Password",
+      type: "password",
+    },
+    {
+      id: 6,
+      label: "Address",
+      type: "text",
+      placeholder: "221 East Street New York, NY",
+    },
+    {
+      id: 7,
+      label: "Country",
+      type: "text",
+      placeholder: "United States",
+    },
+  ];
+  
+  export const productInputs = [
+    {
+      id: 1,
+      label: "Title",
+      type: "text",
+      placeholder: "Razer Blade 15",
+    },
+    {
+      id: 2,
+      label: "Description",
+      type: "text",
+      placeholder: "Description",
+    },
+    {
+      id: 3,
+      label: "Category",
+      type: "text",
+      placeholder: "Computers",
+    },
+    {
+      id: 4,
+      label: "Price",
+      type: "text",
+      placeholder: "1890",
+    },
+    {
+      id: 5,
+      label: "Stock",
+      type: "text",
+      placeholder: "in stock",
+    },
+  ];
+  
